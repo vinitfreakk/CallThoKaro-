@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "648596222905",
+    "project_id": "callthokaro",
+    "storage_bucket": "callthokaro.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:648596222905:android:3ce48b5703a6066d7ebc68",
+        "android_client_info": {
+          "package_name": "com.accidentaldeveloper.callthokaro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "648596222905-0dofmf93aa1bnos2bik0qiklk2un30m3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZc5Y3Z2xcv_ECJXaVVZObHMpk6H-8j_Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "648596222905-0dofmf93aa1bnos2bik0qiklk2un30m3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

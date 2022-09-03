@@ -1,0 +1,22 @@
+import org.gradle.api.initialization.resolve.RepositoriesMode
+
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.PREFER_SETTINGS)
+    repositories {
+        google()
+        mavenCentral()
+        jcenter()
+        maven {  url "https://github.com/jitsi/jitsi-maven-repository/raw/master/releases" }
+        maven { url "https://jitpack.io" }
+        gradlePluginPortal()
+    }
+}
+rootProject.name = "CallThoKaro"
+include ':app'
